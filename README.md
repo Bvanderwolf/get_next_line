@@ -11,3 +11,5 @@ If there is nothing else to read or if an error occurred, it returns NULL.
 
 3. The returned line includes the terminating \n character,
 except if the end of file was reached and does not end with a \n character.
+---
+The option "-D BUFFER_SIZE=n" is added to the compilation command to add the BUFFER_SIZE maco with a variable n size.
